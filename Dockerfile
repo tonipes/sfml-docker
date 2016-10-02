@@ -7,7 +7,8 @@ FROM gcc:6.1
 MAINTAINER Toni Pesola
 
 RUN apt-get update && \
-    apt-get install -y libsfml-dev
+    apt-get install -y libsfml-dev && \ 
+    apt-get install -y lua5.2
 
 RUN wget http://www.cmake.org/files/v3.6/cmake-3.6.2.tar.gz
 

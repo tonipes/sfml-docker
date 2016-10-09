@@ -13,7 +13,10 @@ RUN apt-get update && apt-get install -y \
     gcc \
     clang \
     g++ \
+    libegl1-mesa \ 
     libgl1-mesa-dev \
+    libglu1-mesa \
+    libglu1-mesa-dev \
     libsfml-dev \
     libgtest-dev \
     binutils-dev \

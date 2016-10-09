@@ -9,6 +9,7 @@ MAINTAINER Toni Pesola
 RUN apt-get update && apt-get install -y \
     build-essential \
     wget \
+    git \
     clang \
     libsfml-dev \
     libgtest-dev \

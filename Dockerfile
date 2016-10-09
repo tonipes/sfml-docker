@@ -2,7 +2,7 @@
 # Dockerfile for SFML C++ Project building and testing
 #
 
-FROM gcc:6.1
+FROM gcc:latest
 
 MAINTAINER Toni Pesola
 

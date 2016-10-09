@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     wget \
     git \
+    gcc \
     clang \
     libsfml-dev \
     libgtest-dev \
@@ -25,3 +26,5 @@ RUN cd cmake-3.6.2 && \
     ./bootstrap && \
     make && \
     make install
+
+RUN ln -s /usr/bin/c++ /usr/local/bin/c++

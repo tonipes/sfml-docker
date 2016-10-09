@@ -12,8 +12,12 @@ RUN apt-get update && apt-get install -y \
     git \
     gcc \
     clang \
+    g++ \
+    libgl1-mesa-dev \
     libsfml-dev \
     libgtest-dev \
+    binutils-dev \
+    libtool \
     lua5.2 \
     liblua5.2-dev \
     liblua5.2-0
@@ -27,4 +31,3 @@ RUN cd cmake-3.6.2 && \
     make && \
     make install
 
-RUN ln -s /usr/bin/c++ /usr/local/bin/c++

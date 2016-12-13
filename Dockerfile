@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y \
     lua5.2 \
     liblua5.2-dev \
     liblua5.2-0 \
+    graphviz \
     doxygen
 
 RUN wget http://www.cmake.org/files/v3.6/cmake-3.6.2.tar.gz
